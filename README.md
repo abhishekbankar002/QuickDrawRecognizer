@@ -13,6 +13,20 @@ The accuracy of the model is 94%.
 ![2021-10-06 (11)](https://user-images.githubusercontent.com/77184644/136161565-0b5998da-f49a-4886-952c-426312800594.png)
 ### Test accuracy v/s Epochs
 ![2021-10-06 (12)](https://user-images.githubusercontent.com/77184644/136161603-8577b916-ce65-4a84-aa04-b965e95fbba2.png)
+### Website Results
+![CollageMaker_20211006_130715104](https://user-images.githubusercontent.com/77184644/136177447-f9f43390-073b-4d44-b84e-927a9361b576.png)
+### Sample Images from google data set on which model performed well
+![6817](https://user-images.githubusercontent.com/77184644/136178546-8c8dbd81-72bf-47da-9cbb-c76cd6268c68.png)
+![2055](https://user-images.githubusercontent.com/77184644/136178787-968a6a12-b5a6-4079-b4b3-0c149dd52764.png)
+![6048](https://user-images.githubusercontent.com/77184644/136178865-0970dded-4e0d-4b60-a8c1-ea6694155ac0.png)
+![8700](https://user-images.githubusercontent.com/77184644/136179386-ac447cb2-383c-4980-984d-3fee13de9017.png)
+
+### Sample Images from google data set on which model performed bad
+![7577](https://user-images.githubusercontent.com/77184644/136178933-5db48f70-ef3e-493c-956d-f8c05431c4b0.png)
+![6213](https://user-images.githubusercontent.com/77184644/136178989-ac4fc118-e24c-4492-8800-68b9e2efa30b.png)
+![6845](https://user-images.githubusercontent.com/77184644/136179169-1c8cd5f4-8c53-4c2b-9d54-3ac5f49b2d42.png)
+![5012](https://user-images.githubusercontent.com/77184644/136179213-0e1f9631-d0c5-4375-a344-4bcc1cde9704.png)
+
 
 ## Dependencies
 All Code dependencies are present in the file requirements.txt 
