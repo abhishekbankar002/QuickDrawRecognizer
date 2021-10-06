@@ -1,1 +1,1 @@
-# QuickDrawRecognizer
+# Quick Draw Recognizer
