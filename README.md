@@ -70,7 +70,7 @@ ML
   To install the required packages
   
   <code>ionic serve</code>
-  Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+  Navigate to http://localhost:8100/. The app will automatically reload if you change any of the source files.
 
 ### Back End
   Backend code (python) is in ML folder. Install all the dependencies using <code>pip install -r requirements.txt</code>
