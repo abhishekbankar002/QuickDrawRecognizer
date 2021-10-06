@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { DatasetComponent } from './dataset/dataset.component';
+import { PlayComponent } from './play/play.component';
 
 const routes: Routes = [
   {
@@ -11,6 +13,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'dataset',
+    component: DatasetComponent
+  },
+  {
+    path: 'playGame',
+    component: PlayComponent
+  }
 ];
 
 @NgModule({

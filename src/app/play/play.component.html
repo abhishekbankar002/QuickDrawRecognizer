@@ -1,0 +1,24 @@
+<ion-content>
+  <div class="contianer">
+    <div class="row" style="margin-top: 40px;">
+      <div class="col-md-2">
+        <button class="back" [routerLink]="'/home'">
+          <img src="assets/back.svg">
+          Back
+        </button>
+      </div>
+      <div class="col-md-7" style="text-align: center;">
+        <p class="Draw-inside">Draw Inside this Canvas</p>
+        <canvas #myCanvas  width="384" height="384" class="canvas">
+        </canvas>
+      </div>
+      <div class="col-md-3" style="text-align: center;">
+        <div class="top-padding">
+          <button class="btn btn-default Confirm" (click)="save()" style="text-align: center;">Confirm Selection</button>
+          <button class="btn btn-default Clear" (click)="clear()" style="text-align: center;">Clear Canvas</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
+

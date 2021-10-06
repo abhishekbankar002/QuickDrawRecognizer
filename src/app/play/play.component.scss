@@ -1,0 +1,78 @@
+ion-content{
+  --background: none;
+}
+.back{
+  color: white;
+  font-size: 30px;
+  font-family: 'Nunito Sans';
+  background: none;
+}
+.Confirm{
+  border-color: yellowgreen;
+  font-size: 15px;
+  border-radius: 50px;
+  font-family: 'Lucida Sans';
+  background-color: yellowgreen;
+  color: black;
+  padding: 14px 50px 14px 50px;
+  margin-top: 30px;
+  width: 100%;
+  font-weight: bolder;
+  margin-right: 40px;
+}
+.Clear{
+  font-size: 15px;
+  border-radius: 50px;
+  font-family: 'Lucida Sans';
+  background-color: rgb(250, 68, 68);
+  color: white;
+  padding: 14px 50px 14px 50px;
+  margin-top: 10px;
+  width: 100%;
+  font-weight: bolder;
+  margin-right: 40px;
+}
+.top-padding{
+  margin-right: 40px;
+  margin-top: 250px;
+}
+@media screen and (max-width:1252px){
+  .Confirm{
+    padding: 14px 10px 14px 10px;
+  }
+  .Clear{
+    padding:  14px 10px 14px 10px;
+  }
+}
+@media screen and (max-width:770px){
+  .Confirm{
+    width: 50%;
+    padding: 14px 0px 14px 0px;
+    margin-right: 0px;
+  }
+  .Clear{
+    width: 50%;
+    padding:  14px 0px 14px 0px;
+    margin-right: 1px;
+  }
+  .top-padding{
+    margin-top: 20px;
+  }
+}
+
+
+.canvas{
+  margin-top: 40px;
+  // margin-left: 24%;
+  // width: 484px;
+  // height: 484px;
+  background-color: white;
+  border:15px rgb(241, 214, 162) solid;
+}
+.Draw-inside{
+  font-size: 30px;
+  color: white;
+  font-family: 'Lucida Sans';
+  text-align: center;
+  margin-top: 45px;
+}

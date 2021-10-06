@@ -1,0 +1,49 @@
+<ion-content>
+  <div class="contianer">
+    <div class="row" style="margin-top: 40px;">
+      <div class="col-md-3">
+        <button class="back" [routerLink]="'/home'">
+          <img src="assets/back.svg">
+          Back
+        </button>
+        <div class="steps-to-play">
+          Steps to play
+        </div>
+        <div class="steps">
+          <div>
+            <img src="assets/send.svg">  Choose one of the Labels provided on the right.<br>(For eg.Sun,Flower,Umbrella)
+          </div>
+          <br>
+          <div style="margin-top: 30px;">
+            <img src="assets/send.svg">  Draw inside the given Canvas area.
+          </div>
+          <br>
+          <div style="margin-top: 30px;">
+            <img src="assets/send.svg">  Press 'Confirm Selection'
+          </div>
+          <br>
+          <div style="margin-top: 30px;">
+            <img src="assets/send.svg"> If you make a mistake in while drawing, press 'Clear Selection'
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6"  style="text-align: center;">
+        <p class="Draw-inside">Draw Inside this Canvas</p>
+        <canvas #myCanvas  width="384" height="384" class="canvas">
+        </canvas>
+      </div>
+      <div class="col-md-3">
+        <div class="steps-to-play" style="margin-top: 50px;">
+          Choose from Labels
+        </div>
+        <div *ngFor="let label of labels" class="right-margin">
+          <button class="btn btn-default Create-data-set" [ngClass]="{'selected':label===selected}" (click)='selectedLabel(label)'>{{label}}</button>
+        </div>
+        <div class="right-margin">
+          <button class="btn btn-default Confirm" (click)="save()">Confirm Selection</button>
+          <button class="btn btn-default Clear" (click)="clear()">Clear Canvas</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
