@@ -6,7 +6,7 @@ The framework used for front-end is Ionic cli 6.12.3 and for backend Flask 2.0.1
 
 The model uses a simple Convolutional Neural Network (CNN) to classify the images drawn inside the canvas into their respective categories.
 
-## Demo (http://13.232.46.116/home)
+## Demo (http://3.108.65.136/home)
 ## Results
 The accuracy of the model is 94%.
 ### Train loss v/s Epochs
